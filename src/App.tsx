@@ -68,7 +68,7 @@ class App extends React.Component {
             <VolunteerComponent name="Group leader" time="January 2017 - December 2017" text="Lead a group of 26 students that worked with the reception"/>
           </div>
           <div className={'Section Left-section'}>
-            <h2 className="Headline"> SKILLS </h2>
+            <HeadlineComponent text="SKILLS"/>
             <p className={"Content Skills"}>Javascript, HTML, CSS, React, React Native, Redux, C#, WPF, Java, Python, Git, SQL, Bash</p>
           </div>
           <div className="Section">
