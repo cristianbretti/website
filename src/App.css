@@ -8,7 +8,6 @@ body {
   background-image: url('./wood-desk.jpg');
   height: 100%;
   background-attachment: fixed;
-  background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -23,6 +22,8 @@ body {
 
 .Image-text-buttons-container {
   z-index: 1;
+  transform: translate3d(0,0,0);
+  top: 0;
   position: fixed;
   width: 100vw;
   height: 100vh;
@@ -167,8 +168,21 @@ body {
     padding-right: 0;
     padding-left: 0;
     width: 90vw;
-    margin: 100vh auto;
+    margin: 100vh auto 5vh auto;
     float: initial; 
+  }
+
+  .Picture-container {
+    padding-left: 0;
+  }
+
+  .Name-container {
+    align-items: center; 
+    padding-left: 0;
+  }
+
+  .Buttons {
+    padding-left: 0;
   }
   
   .Headline {
@@ -182,6 +196,12 @@ body {
   .Content {
     font-size: 0.8em
   }
+
+  .Long-content {
+    width: 70vw;
+    display: inline-block;
+  }
+
 }
 
 @media screen and (max-width: 700px) {

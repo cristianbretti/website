@@ -10,6 +10,7 @@ import linkedin from './linkedin-box.png'
 import HeadlineComponent from './HeadlineComponent';
 import NameComponent from './NameComponent';
 import ContactInfoComponent from './ContactInfoComponent';
+import ButtonComponent from './ButtonComponent';
 
 class App extends React.Component {
   
@@ -28,9 +29,7 @@ class App extends React.Component {
                 </div>
               
                 <div className={"Buttons no-print"}>
-                    <a href="https://github.com/cristianbretti">
-                      <img className="Icon" src={github}/>
-                    </a>
+                    <ButtonComponent link="https://github.com/cristianbretti" icon={github}/>
                     <a href="mailto:cristian.osoriobretti@gmail.com">
                       <img src={mail}/>
                     </a>
@@ -40,12 +39,13 @@ class App extends React.Component {
                 </div>
             </div>
             <div className="Contact-info">
+                <ContactInfoComponent text="www.osoriobretti.com"/>
                 <ContactInfoComponent text="cristian.osoriobretti@gmail.com"/>
                 <ContactInfoComponent text="(+46)70 782 6560"/>
                 <ContactInfoComponent text="Slottsvägen 3, 183 52, Täby"/>
             </div>     
         </div>
-        <div className="App-body" id="capture">
+        <div className="App-body">
           <div className={'Section'} >
             <h2 className={"Info-text no-print"}>
               Hi! I'm Cristian, a student at KTH and app developer at WeKnowIT. 
@@ -55,7 +55,7 @@ class App extends React.Component {
           <div className={'Section Right-section'}>
             <HeadlineComponent text="WORK EXPERIENCE"/>
             <WorkComponent name="WeKnowIT" time="Mars 2018- present" position="App developer" text="Developing customized apps for customers with React Native. Resposible for planning, building and delivering the entire product"/>
-            <WorkComponent name="Topgolf Sweden" time="May 2017 - August 2017" position="Software developer" text="Build a Windows application with C# and WPF"/>
+            <WorkComponent name="Topgolf Sweden" time="May 2017 - August 2017" position="Software developer" text="Built a Windows application with C# and WPF"/>
           </div>
           <div className={'Section Left-section'}>
             <HeadlineComponent text="EDUCATION"/>
@@ -69,7 +69,7 @@ class App extends React.Component {
           </div>
           <div className={'Section Left-section'}>
             <h2 className="Headline"> SKILLS </h2>
-            <p className={"Content Skills"}>Javascript, HTML, CSS, React, React Native, Redux, C#, WPF, Python, Git, SQL, Bash</p>
+            <p className={"Content Skills"}>Javascript, HTML, CSS, React, React Native, Redux, C#, WPF, Java, Python, Git, SQL, Bash</p>
           </div>
           <div className="Section">
             <button className={"Download-button no-print"} onClick={() => window.print()}>Download résumé</button>
