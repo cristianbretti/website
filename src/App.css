@@ -1,0 +1,315 @@
+.App {
+  text-align: center;
+  /* background-color: #222; */
+  height: 100vh;
+}
+
+body {
+  background-image: url('./wood-desk.jpg');
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.App-header {
+  width: inherit;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.Image-text-buttons-container {
+  z-index: 1;
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  /* background-color: rgb(76, 135, 180); */
+}
+
+.Picture-container {
+  padding-left: 6vw;
+}
+
+.Picture {
+  margin: 0;
+  border-radius: 2.5vh;
+  width: 180px;
+}
+
+.Contact-info {
+  display: none; 
+}
+
+.Name-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding-left: 6vw;
+}
+ 
+.Name {
+  margin: 0;
+  color: black;
+  font-weight: lighter;
+  font-size: 2.5em;
+}
+
+.Buttons {
+  padding-left: 6vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.Icon {
+  width: 24px;
+}
+
+.App-body {
+  margin-top: 100vh;
+  margin-right: 5vw;
+  margin-bottom: 15vh;
+  position: relative;
+  z-index: 2;
+  width: 60vw;
+  float: right;
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+}
+
+.Section {
+  background-color: #ffffff;
+  padding-left: 5vw;
+  padding-right: 5vw;
+}
+
+.Info-text {
+  font-weight: lighter;
+  font-size: 1em;
+  font-stretch: expanded;
+  padding-top: 15vh;
+  padding-right: 5vw;
+  padding-left: 5vw;
+  margin: 0;
+}
+
+.Left-section {
+  text-align: left;
+
+}
+
+.Right-section {
+  text-align: right;
+}
+
+.Headline {
+  margin-top: 0;
+  padding-top: 3vh;
+  font-size: 1.8em;
+  color: black;
+  font-weight: bolder
+}
+
+.Sub-headline {
+  margin-bottom: 1vh;
+  font-size: 1.5em;
+  color: black;
+}
+
+.Content {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-bottom: 1vh;
+  font-size: 1em;
+  color: black;
+}
+
+.Long-content {
+  width: 45vw;
+  display: inline-block;
+}
+
+.Time {
+  font-style: italic;
+}
+
+.Skills {
+  padding-bottom: 10vh;
+}
+
+.Download-button {
+  background-color: #cfd8dc;
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-bottom: 4vh; 
+}
+
+@media screen and (max-width: 1000px) {
+  .Image-text-buttons-container{
+    align-items: center;
+  }
+  
+  .App-body{
+    padding-right: 0;
+    padding-left: 0;
+    width: 90vw;
+    margin: 100vh auto;
+    float: initial; 
+  }
+  
+  .Headline {
+    font-size: 1.6em
+  }
+  
+  .Sub-headline{
+    font-size: 1.2em
+  }
+  
+  .Content {
+    font-size: 0.8em
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .Image-text-buttons-container{
+    align-items: center;
+  }
+
+  .Info-text {
+    font-size: 0.8em;
+  }
+  
+  .Headline {
+    font-size: 1.2em
+  }
+  
+  .Sub-headline{
+    font-size: 1em
+  }
+  
+  .Content {
+    font-size: 0.8em
+  }
+}
+
+@media print {
+  .no-print, .no-print *
+  {
+      display: none !important;
+  }
+  
+  .App {
+    all: unset;
+    width: 210mm;
+    height: 297mm;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    background-color: #222;
+  }
+  
+  .App-header {
+    padding-left: 4vw;
+  }
+
+  .Image-text-buttons-container {
+    all: unset;
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .Picture {
+    margin: 0;
+    border-radius: 2.5vh;
+    width: 80px;
+  }
+
+  .Name-container {
+    padding-left: 2vw;
+  }
+  
+  .Name {
+    all: unset;
+    margin: 0;
+    color: black;
+    font-weight: lighter;
+    font-size: 2em;
+  }
+
+  .Contact-info {
+    all: unset;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+  }
+  
+  .Contact-info-text {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .App-body {
+    all: unset;
+  }
+  
+  .Section {
+    padding-left: 10vw;
+    padding-right: 10vw;
+  }
+  
+  .Info-text {
+    all: unset;
+    font-weight: lighter;
+    font-size: 0.5em;
+    font-stretch: expanded;
+    margin: 0;
+  }
+  
+  .Right-section {
+    text-align: left;
+    padding-right: 0vw;
+  }
+  
+  .Headline {
+    margin-bottom: 0;
+    padding-top: 2.5vh;
+    font-size: 1.6em;
+    font-weight: bolder;
+  }
+  
+  .Sub-headline {
+    margin-top: 1vh;
+    margin-bottom: 0;
+    font-size: 1.3em;
+  }
+  
+  .Content {
+    padding-bottom: 0.5vh;
+    display: inline-block;
+    width: 80vw;
+  }
+
+  .Skills {
+    all: unset;
+  }
+  
+}
