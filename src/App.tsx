@@ -72,7 +72,9 @@ class App extends React.Component {
             <p className={"Content Skills"}>Javascript, HTML, CSS, React, React Native, Redux, Node, C#, WPF, Java, Python, Git, SQL</p>
           </div>
           <div className="Section">
-            <button className={"Download-button no-print"} onClick={() => window.print()}>Download résumé</button>
+            <a href="resume" download={true}>
+              <button className={"Download-button no-print"}>Download résumé</button>
+            </a>
           </div>
         </div>
       </div>
