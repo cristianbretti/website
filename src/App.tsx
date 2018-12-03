@@ -6,7 +6,10 @@ import VolunteerComponent from './VolunteerComponent';
 import profile from './profile.jpg';
 import github from './github-box.png';
 import mail from './sharp-email-24px.svg';
-import linkedin from './linkedin-box.png'
+import linkedin from './linkedin-box.png';
+import home from './home.svg';
+import phone from './phone.svg';
+import earth from './earth.svg';
 import HeadlineComponent from './HeadlineComponent';
 import NameComponent from './NameComponent';
 import ContactInfoComponent from './ContactInfoComponent';
@@ -36,10 +39,10 @@ class App extends React.Component {
                 </div>
             </div>
             <div className="Contact-info">
-                <ContactInfoComponent text="www.osoriobretti.com"/>
-                <ContactInfoComponent text="cristian.osoriobretti@gmail.com"/>
-                <ContactInfoComponent text="(+46)70 782 6560"/>
-                <ContactInfoComponent text="Slottsvägen 3, 183 52, Täby"/>
+                <ContactInfoComponent text="www.osoriobretti.com" icon={earth}/>
+                <ContactInfoComponent text="cristian.osoriobretti@gmail.com" icon={mail}/>
+                <ContactInfoComponent text="(+46)70 782 6560" icon={phone}/>
+                <ContactInfoComponent text="Slottsvägen 3, 183 52, Täby" icon={home}/>
             </div>     
         </div>
         <div className="App-body">
