@@ -296,14 +296,6 @@ body {
     padding-right: 10vw;
   }
   
-  .Info-text {
-    all: unset;
-    font-weight: lighter;
-    font-size: 0.5em;
-    font-stretch: expanded;
-    margin: 0;
-  }
-  
   .Right-section {
     text-align: left;
     padding-right: 0vw;
