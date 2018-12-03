@@ -31,12 +31,8 @@ class App extends React.Component {
               
                 <div className={"Buttons no-print"}>
                     <ButtonComponent link="https://github.com/cristianbretti" icon={github}/>
-                    <a href="mailto:cristian.osoriobretti@gmail.com">
-                      <img src={mail}/>
-                    </a>
-                    <a href="https://www.linkedin.com/in/cristian-osorio-bretti-904270106/">
-                      <img className="Icon" src={linkedin}/>
-                    </a>
+                    <ButtonComponent link="mailto:cristian.osoriobretti@gmail.com" icon={mail}/>
+                    <ButtonComponent link="https://www.linkedin.com/in/cristian-osorio-bretti-904270106/" icon={linkedin}/>                    
                 </div>
             </div>
             <div className="Contact-info">
