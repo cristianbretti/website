@@ -11,6 +11,7 @@ import HeadlineComponent from './HeadlineComponent';
 import NameComponent from './NameComponent';
 import ContactInfoComponent from './ContactInfoComponent';
 import ButtonComponent from './ButtonComponent';
+import SummaryComponent from './SummaryComponent';
 
 class App extends React.Component {
   
@@ -46,11 +47,10 @@ class App extends React.Component {
             </div>     
         </div>
         <div className="App-body">
-          <div className={'Section'} >
-            <h2 className={"Info-text no-print"}>
-              Hi! I'm Cristian, a student at KTH and app developer at WeKnowIT. 
-              I enjoy exploring new things, testing new technologies and improvining my knowledge in the world of computer science, machine learning and software development.
-            </h2>
+          <div className={'Section Left-section Info-text'} >
+              <HeadlineComponent text="ABOUT ME"/>
+              <SummaryComponent headline="Who am I" text= "I'm Cristian, a 22 year old student at KTH. I enjoy exploring new things, testing new technologies and improving my knowledge in the world of computer science"/>
+              <SummaryComponent headline="My goals" text="To work in a role where I can bridge the gap between machine learning and software development in order to make better products"/>
           </div>
           <div className={'Section Right-section'}>
             <HeadlineComponent text="WORK EXPERIENCE"/>
