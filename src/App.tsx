@@ -54,18 +54,18 @@ class App extends React.Component {
           </div>
           <div className={'Section Right-section'}>
             <HeadlineComponent text="WORK EXPERIENCE"/>
-            <WorkComponent name="WeKnowIT" time="Mars 2018- present" position="App developer" text="Developing customized apps for customers with React Native. Resposible for planning, building and delivering the entire product"/>
-            <WorkComponent name="Topgolf Sweden" time="May 2017 - August 2017" position="Software developer" text="Built a Windows application with C# and WPF"/>
+            <WorkComponent name="WeKnowIT" time="Mars 2018- present" position="App developer" text="Developing customized apps with React Native for customers. Resposible for planning, building and delivering the entire product"/>
+            <WorkComponent name="Topgolf Sweden" time="May 2017 - August 2017" position="Software developer" text="Built a Windows application from scratch with C# and WPF"/>
           </div>
           <div className={'Section Left-section'}>
             <HeadlineComponent text="EDUCATION"/>
-            <EducationComponent name="KTH - Royal Institute of Technology" time="August 2015 - present" text="Pursuing a M.Sc in Computer Science with a specialization in machine learning"/>
-            <EducationComponent name="Åva gymnasium" time="August 2012 - June 2015" text="Technology program"/>
+            <EducationComponent name="KTH - Royal Institute of Technology" time="August 2015 - present" text="Pursuing a M.Sc in Computer Science with a specialization in data science and machine learning"/>
+            <EducationComponent name="Åva Upper Secondary School" time="August 2012 - June 2015" text="Technology program"/>
           </div>
           <div className={'Section Right-section'}>
             <HeadlineComponent text="VOLUNTEER EXPERIENCE"/>
-            <VolunteerComponent name="Head of reception" time="January 2018 - December 2018" text="Head of the reception of new students at the computer science chapter. Lead a team of 60 students to organize 5 weeks of events for 200 people"/>
-            <VolunteerComponent name="Group leader" time="January 2017 - December 2017" text="Lead a group of 26 students that worked with the reception"/>
+            <VolunteerComponent name="Project leader" time="January 2018 - December 2018" text="Head of the reception of new students at the computer science chapter. Lead a team of 60 students to organize 5 weeks of events for 200 people to partake in"/>
+            <VolunteerComponent name="Group leader" time="January 2017 - December 2017" text="Lead a group of 26 students that worked with the reception of new students at the computer science chapter"/>
           </div>
           <div className={'Section Left-section'}>
             <HeadlineComponent text="SKILLS"/>
