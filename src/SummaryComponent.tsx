@@ -8,7 +8,7 @@ class SummaryComponent extends React.Component<ISummaryComponentProps, {}> {
         return (
             <div>
                 <h4 className="Sub-headline">{this.props.headline}</h4>
-                <p className="Summary-paragraph">
+                <p className="Content">
                     {this.props.text}
                 </p>
             </div>
