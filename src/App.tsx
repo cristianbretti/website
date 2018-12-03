@@ -49,13 +49,13 @@ class App extends React.Component {
         <div className="App-body">
           <div className={'Section Left-section Info-text'} >
               <HeadlineComponent text="ABOUT ME"/>
-              <SummaryComponent headline="Who am I" text= "I'm Cristian, a 22 year old student at KTH. I enjoy exploring new things, testing new technologies and improving my knowledge in the world of computer science"/>
-              <SummaryComponent headline="My goals" text="To work in a role where I can bridge the gap between machine learning and software development in order to make better products"/>
+              <SummaryComponent headline="Who am I?" text= "I'm Cristian, a 22 year old student at KTH. I enjoy exploring new things, testing new technologies and improving my knowledge in the world of computer science"/>
+              <SummaryComponent headline="My goals?" text="To work in a role where I can bridge the gap between machine learning and software development in order to make better products"/>
           </div>
           <div className={'Section Right-section'}>
             <HeadlineComponent text="WORK EXPERIENCE"/>
-            <WorkComponent name="WeKnowIT" time="Mars 2018- present" position="App developer" text="Developing customized apps with React Native for customers. Resposible for planning, building and delivering the entire product"/>
-            <WorkComponent name="Topgolf Sweden" time="May 2017 - August 2017" position="Software developer" text="Built a Windows application from scratch with C# and WPF"/>
+            <WorkComponent name="WeKnowIT - App developer" time="Mars 2018- present" text="Developing customized apps with React Native for customers. Resposible for planning, building and delivering the entire product"/>
+            <WorkComponent name="Topgolf Sweden - Software developer" time="May 2017 - August 2017" text="Built a Windows application from scratch with C# and WPF"/>
           </div>
           <div className={'Section Left-section'}>
             <HeadlineComponent text="EDUCATION"/>

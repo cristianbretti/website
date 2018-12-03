@@ -227,9 +227,6 @@ body {
       display: none !important;
   }
 
-  @page {
-    margin: 0.5em;
-  }
   
   .App {
     all: unset;
@@ -308,19 +305,19 @@ body {
   .Headline {
     margin-bottom: 0;
     padding-top: 2.5vh;
-    font-size: 1em;
+    font-size: 1.3em;
     font-weight: bolder;
   }
   
   .Sub-headline {
     margin-top: 0.8vh;
     margin-bottom: 0;
-    font-size: 1em;
+    font-size: 1.1em;
   }
   
   .Content {
     padding-bottom: 0.5vh;
-    font-size: 0.5;
+    font-size: 0.9em;
     display: inline-block;
     width: 80vw;
   }
