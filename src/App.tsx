@@ -46,12 +46,12 @@ class App extends React.Component {
             </div>     
         </div>
         <div className="App-body">
-          <div className={'Section Left-section Info-text'} >
+          <div className={'Section Left-section'} >
               <HeadlineComponent text="ABOUT ME"/>
-              <SummaryComponent headline="Who am I?" text= "I'm Cristian, a 22 year old student at KTH. I enjoy exploring new things, testing new technologies and improving my knowledge in the world of computer science"/>
-              <SummaryComponent headline="My goals?" text="To work in a role where I can bridge the gap between machine learning and software development in order to make better products"/>
+              <SummaryComponent headline="Who am I" text= "I'm Cristian, a 22 year old student at KTH. I enjoy exploring new things, testing new technologies and improving my knowledge in the world of computer science"/>
+              <SummaryComponent headline="My goals" text="To work in a role where I can bridge the gap between machine learning and software development in order to make better products"/>
           </div>
-          <div className={'Section Right-section'}>
+          <div className={'Section Left-section'}>
             <HeadlineComponent text="WORK EXPERIENCE"/>
             <WorkComponent name="WeKnowIT - App developer" time="Mars 2018- present" text="Developing customized apps with React Native for customers. Resposible for planning, building and delivering the entire product"/>
             <WorkComponent name="Topgolf Sweden - Software developer" time="May 2017 - August 2017" text="Built a Windows application from scratch with C# and WPF"/>
@@ -61,16 +61,18 @@ class App extends React.Component {
             <EducationComponent name="KTH - Royal Institute of Technology" time="August 2015 - present" text="Pursuing a M.Sc in Computer Science with a specialization in data science and machine learning"/>
             <EducationComponent name="Åva Upper Secondary School" time="August 2012 - June 2015" text="Technology program"/>
           </div>
-          <div className={'Section Right-section'}>
+          <div className={'Section Left-section'}>
             <HeadlineComponent text="VOLUNTEER EXPERIENCE"/>
             <VolunteerComponent name="Project leader" time="January 2018 - December 2018" text="Head of the reception of new students at the computer science chapter. Lead a team of 60 students to organize 5 weeks of events for 200 people to partake in"/>
             <VolunteerComponent name="Group leader" time="January 2017 - December 2017" text="Lead a group of 26 students that worked with the reception of new students at the computer science chapter"/>
           </div>
           <div className={'Section Left-section'}>
             <HeadlineComponent text="SKILLS"/>
-            <p className={"Content Skills"}>Javascript, HTML, CSS, React, React Native, Redux, Node, C#, WPF, Java, Python, Git, SQL</p>
+            <div className="Component-container">
+              <p className={"Content Skills"}>Javascript, HTML, CSS, React, React Native, Redux, Node, C#, WPF, Java, Python, Git, SQL</p>
+            </div>
           </div>
-          <div className="Section">
+          <div className={"Section Resume"}>
             <a href="resume" download={true}>
               <button className={"Download-button no-print"}>Download résumé</button>
             </a>

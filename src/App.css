@@ -87,38 +87,59 @@ body {
   border-color: black;
 }
 
+.App-body::after {
+  content: '';
+  position: absolute;
+  width: 0.3vw;
+  background-color: black;
+  top: 8vh;
+  bottom: 20vh;
+  left: 2.8vw;
+}
+
 .Section {
   background-color: #ffffff;
   padding-left: 5vw;
   padding-right: 5vw;
-}
-
-.Info-text {
   padding-top: 5vh;
-}
-
-
-.Left-section {
+  position: relative;
   text-align: left;
-
 }
 
-.Right-section {
-  text-align: right;
+.Resume::after {
+  all:unset;
+}
+
+.Component-container {
+  position: relative;
 }
 
 .Headline {
   margin-top: 0;
   padding-top: 3vh;
   font-size: 1.8em;
-  color: black;
-  font-weight: bolder
+  font-weight: normal;
+  color: rgb(202, 61, 33);
 }
 
 .Sub-headline {
   margin-bottom: 1vh;
   font-size: 1.5em;
   color: black;
+  font-weight: unset;
+}
+
+.Sub-headline::after {
+  content: '';
+  position: absolute;
+  width: 1vw;
+  height: 1vw;
+  left: -2.7vw;
+  top: 0.7vw;
+  background-color: white;
+  border: 0.15vw solid #000;
+  border-radius: 50%;
+  z-index: 1;
 }
 
 .Content {
@@ -140,6 +161,18 @@ body {
 
 .Skills {
   padding-bottom: 10vh;
+}
+
+.Skills:after {
+  content: '';
+  position: absolute;
+  width: 1vw;
+  height: 1vw;
+  left: -2.7vw;
+  background-color: white;
+  border: 0.15vw solid #000;
+  border-radius: 50%;
+  z-index: 1;
 }
 
 .Download-button {
@@ -203,10 +236,6 @@ body {
   .Image-text-buttons-container{
     align-items: center;
   }
-
-  .Info-text {
-    font-size: 0.8em;
-  }
   
   .Headline {
     font-size: 1.2em
@@ -227,6 +256,9 @@ body {
       display: none !important;
   }
 
+  @screen {
+    margin: 0;
+  }
   
   .App {
     all: unset;
@@ -255,7 +287,7 @@ body {
   .Picture {
     margin: 0;
     border-radius: 2.5vh;
-    width: 60px;
+    width: 80px;
   }
 
   .Name-container {
@@ -293,21 +325,17 @@ body {
   .App-body {
     all: unset;
   }
+
+  .App-body::after {
+    all: unset;
+  }
   
   .Section {
     padding-left: 10vw;
     padding-right: 10vw;
-  }
-  
-  .Info-text {
     padding-top: 0;
   }
 
-  .Right-section {
-    text-align: left;
-    padding-right: 0vw;
-  }
-  
   .Headline {
     margin-bottom: 0;
     padding-top: 2.5vh;
