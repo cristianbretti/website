@@ -48,7 +48,7 @@ class App extends React.Component {
         <div className="App-body">
           <div className={'Section Left-section'} >
               <HeadlineComponent text="ABOUT ME"/>
-              <SummaryComponent headline="Who am I" text= "I'm Cristian, a 22 year old student at KTH. I enjoy exploring new things, testing new technologies and improving my knowledge in the world of computer science"/>
+              <SummaryComponent headline="Who am I" text= "I'm Cristian, a 22-year-old student at KTH. I enjoy exploring new things, testing new technologies and improving my knowledge in the world of computer science"/>
               <SummaryComponent headline="My goals" text="To work in a role where I can bridge the gap between machine learning and software development in order to make better products"/>
           </div>
           <div className={'Section Left-section'}>
