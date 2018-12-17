@@ -11,5 +11,9 @@ def index():
 def download():
     return send_from_directory(directory="./uploads/", filename="resume.pdf"), 200
 
+@app.route('/favicon.ico')
+def favicon():
+    return send_from_directory(directory="./build/", filename='favicon.ico',mimetype='image/vnd.microsoft.icon')
+
 if __name__ == "__main__":
     app.run(host='0.0.0.0')
