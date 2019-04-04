@@ -22,7 +22,7 @@ body {
 
 .Image-text-buttons-container {
   z-index: 1;
-  transform: translate3d(0,0,0);
+  transform: translate3d(0, 0, 0);
   top: 0;
   position: fixed;
   width: 100vw;
@@ -45,7 +45,7 @@ body {
 }
 
 .Contact-info {
-  display: none; 
+  display: none;
 }
 
 .Name-container {
@@ -55,7 +55,7 @@ body {
   align-items: flex-start;
   padding-left: 6vw;
 }
- 
+
 .Name {
   margin: 0;
   color: black;
@@ -111,7 +111,7 @@ body {
 }
 
 .Resume::after {
-  all:unset;
+  all: unset;
 }
 
 .Component-container {
@@ -188,20 +188,20 @@ body {
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
-  margin-bottom: 4vh; 
+  margin-bottom: 4vh;
 }
 
 @media screen and (max-width: 1000px) {
-  .Image-text-buttons-container{
+  .Image-text-buttons-container {
     align-items: center;
   }
-  
-  .App-body{
+
+  .App-body {
     padding-right: 0;
     padding-left: 0;
     width: 90vw;
     margin: 100vh auto 5vh auto;
-    float: initial; 
+    float: initial;
   }
 
   .Picture-container {
@@ -209,61 +209,60 @@ body {
   }
 
   .Name-container {
-    align-items: center; 
+    align-items: center;
     padding-left: 0;
   }
 
   .Buttons {
     padding-left: 0;
   }
-  
+
   .Headline {
-    font-size: 1.6em
+    font-size: 1.6em;
   }
-  
-  .Sub-headline{
-    font-size: 1.2em
+
+  .Sub-headline {
+    font-size: 1.2em;
   }
-  
+
   .Content {
-    font-size: 0.8em
+    font-size: 0.8em;
   }
 
   .Long-content {
     width: 70vw;
     display: inline-block;
   }
-
 }
 
 @media screen and (max-width: 700px) {
-  .Image-text-buttons-container{
+  .Image-text-buttons-container {
     align-items: center;
   }
-  
+
   .Headline {
-    font-size: 1.2em
+    font-size: 1.2em;
   }
-  
-  .Sub-headline{
-    font-size: 1em
+
+  .Sub-headline {
+    font-size: 1em;
   }
-  
+
   .Content {
-    font-size: 0.8em
+    font-size: 0.8em;
   }
 }
 
 @media print {
-  .no-print, .no-print *
-  {
-      display: none !important;
+  .no-print,
+  .no-print * {
+    display: none !important;
   }
 
   @screen {
     margin: 0;
   }
-  
+
   .App {
     all: unset;
     width: 210mm;
@@ -274,7 +273,7 @@ body {
     align-items: flex-start;
     background-color: #222;
   }
-  
+
   .App-header {
     padding-left: 4vw;
   }
@@ -297,7 +296,7 @@ body {
   .Name-container {
     padding-left: 2vw;
   }
-  
+
   .Name {
     all: unset;
     margin: 0;
@@ -318,14 +317,14 @@ body {
     display: flex;
     justify-content: flex-end;
   }
-  
+
   .Contact-info-text {
     margin: 0;
     padding: 0;
     font-size: 1em;
     padding-right: 1vw;
   }
-  
+
   .App-body {
     all: unset;
   }
@@ -333,7 +332,7 @@ body {
   .App-body::after {
     all: unset;
   }
-  
+
   .Section {
     padding-left: 10vw;
     padding-right: 10vw;
@@ -346,13 +345,13 @@ body {
     font-size: 1.3em;
     font-weight: bolder;
   }
-  
+
   .Sub-headline {
     margin-top: 0.8vh;
     margin-bottom: 0;
     font-size: 1.1em;
   }
-  
+
   .Content {
     padding-bottom: 0.5vh;
     font-size: 0.9em;
@@ -363,5 +362,4 @@ body {
   .Skills {
     all: unset;
   }
-  
 }
