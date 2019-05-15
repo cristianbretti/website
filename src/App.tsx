@@ -73,9 +73,14 @@ class App extends React.Component {
           <div className={'Section Left-section'}>
             <HeadlineComponent text="WORK EXPERIENCE" />
             <WorkComponent
+              name="KRY - Web developer"
+              time="Mars 2019 - present"
+              text="Working full stack on a internal web system"
+            />
+            <WorkComponent
               name="WeKnowIT - App developer"
-              time="Mars 2018-  Mars 2019"
-              text="Developed customized apps with React Native for customers. Resposible for planning, building and delivering the entire product"
+              time="Mars 2018 -  Mars 2019"
+              text="Developed customized apps with React Native. Resposible for planning, building and delivering the entire product"
             />
             <WorkComponent
               name="Topgolf Sweden - Software developer"
