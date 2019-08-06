@@ -95,11 +95,6 @@ class App extends React.Component {
               time="August 2015 - present"
               text="Pursuing a M.Sc in Computer Science with a specialization in data science and machine learning"
             />
-            <EducationComponent
-              name="Åva Upper Secondary School"
-              time="August 2012 - June 2015"
-              text="Technology program"
-            />
           </div>
           <div className={'Section Left-section'}>
             <HeadlineComponent text="VOLUNTEER EXPERIENCE" />
