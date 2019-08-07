@@ -70,9 +70,9 @@ class App extends React.Component {
           <div className={'Section Left-section'}>
             <HeadlineComponent text="WORK EXPERIENCE" />
             <WorkComponent
-              name="KRY - Web developer"
+              name="KRY - Software Engineer Intern"
               time="Mars 2019 - present"
-              text="Working full stack on a internal web system"
+              text="Working full stack with SQL, RxJava and web technologies to build and improve tools used internally at KRY"
             />
             <WorkComponent
               name="WeKnowIT - App developer"
