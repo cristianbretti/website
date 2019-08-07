@@ -103,7 +103,7 @@ class App extends React.Component {
             <VolunteerComponent
               name="Project leader"
               time="January 2018 - December 2018"
-              text="Head of the reception of new students at the computer science chapter. Lead a team of 60 students to organize 5 weeks of events for 200 people to partake in"
+              text="Head of the reception of new students at the computer science chapter. Lead a team of 60 students to organize 5 weeks of events for 200 people to partake in. Responsibilities included making a budget, recruiting, planning logistics, being the main contact with KTH and leading everyone towards our common goal"
             />
             <VolunteerComponent
               name="Group leader"
