@@ -115,8 +115,8 @@ class App extends React.Component {
             <HeadlineComponent text="SKILLS" />
             <div className="Component-container">
               <p className={'Content Skills'}>
-                Javascript, HTML, CSS, React, React Native, Redux, Node, C#,
-                WPF, Java, Python, Git, SQL
+                Javascript, HTML, CSS, React, React Native, Redux, Node, Java,
+                RxJava, SQL, C#, WPF, Python, Git
               </p>
             </div>
           </div>
