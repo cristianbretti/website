@@ -96,6 +96,11 @@ class App extends React.Component {
           <div className={'Section Left-section'}>
             <HeadlineComponent text="VOLUNTEER EXPERIENCE" />
             <VolunteerComponent
+              name="Head of Sales"
+              time="August 2019 - August 2020"
+              text="For one year I will be leading a group of 8 peers in a sales group. My responsibilities will include supervising and improving the workflow, hold meetings and making sure we meet our goal of bringing in 1M SEK to our student project"
+            />
+            <VolunteerComponent
               name="Project leader"
               time="January 2018 - December 2018"
               text="Head of the reception of new students at the computer science chapter. Lead a team of 60 students to organize 5 weeks of events for 200 people to partake in"
