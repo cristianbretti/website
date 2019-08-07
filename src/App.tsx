@@ -64,7 +64,7 @@ class App extends React.Component {
             <SummaryComponent
               headline=""
               text="I'm Cristian, a 22-year-old student at the Royal Institute of Technology in Stockholm, Sweden.
-              My passions include exploring new things, taking on interesting problems and using computer science to build great things."
+              My passions include exploring new things, taking on interesting problems and using computer science to build great products"
             />
           </div>
           <div className={'Section Left-section'}>
@@ -98,7 +98,7 @@ class App extends React.Component {
             <VolunteerComponent
               name="Head of Sales"
               time="August 2019 - August 2020"
-              text="For one year I will be leading a group of 8 peers in a sales group. My responsibilities will include supervising and improving the workflow, hold meetings and making sure we meet our goal of bringing in 1M SEK to our student project"
+              text="For one year I will be leading a group of 8 peers in a sales group. My responsibilities will include supervising and improving our workflow, hold meetings and making sure we meet our goal of bringing in 1M SEK to our student project"
             />
             <VolunteerComponent
               name="Project leader"
