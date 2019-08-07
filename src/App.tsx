@@ -62,12 +62,9 @@ class App extends React.Component {
           <div className={'Section Left-section'}>
             <HeadlineComponent text="ABOUT ME" />
             <SummaryComponent
-              headline="Who am I"
-              text="I'm Cristian, a 22-year-old student at KTH. I enjoy exploring new things, testing new technologies and improving my knowledge in the world of computer science"
-            />
-            <SummaryComponent
-              headline="My goals"
-              text="To work in a role where I can bridge the gap between machine learning and software development in order to make better products"
+              headline=""
+              text="I'm Cristian, a 22-year-old student at the Royal Institute of Technology in Stockholm, Sweden.
+              My passions include exploring new things, taking on interesting problems and using computer science to build great things."
             />
           </div>
           <div className={'Section Left-section'}>
