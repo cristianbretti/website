@@ -9,7 +9,7 @@ def index():
 
 @app.route("/resume", methods=['GET'])
 def download():
-    return send_from_directory(directory="./uploads/", filename="resume.pdf"), 200
+    return send_from_directory(directory="./uploads/", filename="resume-cristian-osorio-bretti.pdf",as_attachment=True), 200
 
 @app.route('/favicon.ico')
 def favicon():
