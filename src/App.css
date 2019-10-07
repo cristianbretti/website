@@ -74,6 +74,41 @@ body {
   width: 24px;
 }
 
+.Scroll-icon {
+  position: relative;
+  left: 65vw;
+}
+
+.Scroll-text {
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+}
+
+.Icon-large {
+  width: 48px;
+}
+
+.Icon-bounce {
+  animation: bounce 1s infinite alternate;
+  -webkit-animation: bounce 1s infinite alternate;
+}
+@keyframes bounce {
+  from {
+    transform: translateY(0px);
+  }
+  to {
+    transform: translateY(-15px);
+  }
+}
+@-webkit-keyframes bounce {
+  from {
+    transform: translateY(0px);
+  }
+  to {
+    transform: translateY(-15px);
+  }
+}
+
 .App-body {
   margin-top: 100vh;
   margin-right: 5vw;
@@ -194,6 +229,11 @@ body {
 @media screen and (max-width: 1000px) {
   .Image-text-buttons-container {
     align-items: center;
+  }
+
+  .Scroll-icon {
+    position: relative;
+    left: 0vw;
   }
 
   .App-body {

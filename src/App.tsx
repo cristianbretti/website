@@ -15,6 +15,7 @@ import NameComponent from './NameComponent';
 import ContactInfoComponent from './ContactInfoComponent';
 import ButtonComponent from './ButtonComponent';
 import SummaryComponent from './SummaryComponent';
+import ScrollDownComponent from './ScrollDownComponent';
 
 class App extends React.Component {
   public render() {
@@ -44,6 +45,7 @@ class App extends React.Component {
                 icon={linkedin}
               />
             </div>
+            <ScrollDownComponent />
           </div>
           <div className="Contact-info">
             <ContactInfoComponent text="www.osoriobretti.com" icon={earth} />
