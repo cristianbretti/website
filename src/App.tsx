@@ -65,7 +65,7 @@ class App extends React.Component {
             <HeadlineComponent text="ABOUT ME" />
             <SummaryComponent
               headline=""
-              text="I'm Cristian, a 22-year-old student at the Royal Institute of Technology in Stockholm, Sweden.
+              text="I'm Cristian, a 23-year-old student at the Royal Institute of Technology in Stockholm, Sweden.
               My passions include exploring new things, taking on interesting problems and using computer science to build great products"
             />
           </div>
@@ -79,12 +79,12 @@ class App extends React.Component {
             <WorkComponent
               name="WeKnowIT - App developer"
               time="Mars 2018 -  Mars 2019"
-              text="Developed customized apps with React Native. Resposible for planning, building and delivering the entire product"
+              text="Developed customised apps with React Native. Responsible for planning, building and delivering the entire product"
             />
             <WorkComponent
               name="Topgolf Sweden - Software developer"
               time="May 2017 - August 2017"
-              text="Built a Windows application from scratch with C# and WPF"
+              text="Built a Windows application from with C# and WPF"
             />
           </div>
           <div className={'Section Left-section'}>
@@ -100,25 +100,25 @@ class App extends React.Component {
             <VolunteerComponent
               name="Head of Sales"
               time="August 2019 - August 2020"
-              text="For one year I will be leading a group of 8 peers in a sales group. My responsibilities will include supervising and improving our workflow, hold meetings and making sure we meet our goal of bringing in 1M SEK to our student project"
+              text="Leading a group of 5 peers in a sales group. Responsibilities include supervising and improving our workflow to make sure we meet our goal of bringing in 1M SEK to our student project"
             />
             <VolunteerComponent
               name="Project leader"
               time="January 2018 - December 2018"
-              text="Head of the reception of new students at the computer science chapter. Lead a team of 60 students to organize 5 weeks of events for 200 people to partake in. Responsibilities included making a budget, recruiting, planning logistics, being the main contact towards KTH and leading everyone towards our common goal"
+              text="Head of the reception of new students at the computer science chapter. Led a team of 60 students to organize 5 weeks of events for 200 people to partake in. Responsibilities included making a budget, recruiting, planning logistics, being the main contact towards KTH and leading everyone towards our common goal"
             />
             <VolunteerComponent
               name="Group leader"
               time="January 2017 - December 2017"
-              text="Lead a group of 26 students that worked with the reception of new students at the computer science chapter"
+              text="Led a group of 26 students that worked with the reception of new students at the computer science chapter"
             />
           </div>
           <div className={'Section Left-section'}>
             <HeadlineComponent text="SKILLS" />
             <div className="Component-container">
               <p className={'Content Skills'}>
-                Javascript, HTML, CSS, React, React Native, Redux, Node, Java,
-                RxJava, SQL, C#, WPF, Python, Git
+              Javascript, HTML, CSS, React, React Native, Redux, Node, Java, RxJava,
+              SQL, C#, WPF, Python, Git, Bash
               </p>
             </div>
           </div>
