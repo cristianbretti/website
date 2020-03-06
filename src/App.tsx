@@ -84,7 +84,7 @@ class App extends React.Component {
             <WorkComponent
               name="Topgolf Sweden - Software developer"
               time="Summer 2017"
-              text="Built a Windows application from with C# and WPF"
+              text="Built a Windows application with C# and WPF"
             />
           </div>
           <div className={'Section Left-section'}>
