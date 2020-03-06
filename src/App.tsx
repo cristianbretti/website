@@ -90,9 +90,14 @@ class App extends React.Component {
           <div className={'Section Left-section'}>
             <HeadlineComponent text="EDUCATION" />
             <EducationComponent
-              name="KTH - Royal Institute of Technology"
-              time="August 2015 - present"
-              text="Pursuing a M.Sc in Computer Science with a specialization in data science and machine learning"
+              name="M.Sc in Computer Science - KTH Royal Institute of Technology"
+              time="August 2018 - present"
+              text="Master of Science in Computer Science and Engineering, specialized in Data Science and Machine Learning"
+            />
+            <EducationComponent
+              name="B.Sc in Computer Science - KTH Royal Institute of Technology"
+              time="August 2015 - June 2018"
+              text="Bachelor of Science in Computer Science and Engineering"
             />
           </div>
           <div className={'Section Left-section'}>
