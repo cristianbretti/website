@@ -55,7 +55,7 @@ class App extends React.Component {
             />
             <ContactInfoComponent text="(+46)70 782 6560" icon={phone} />
             <ContactInfoComponent
-              text="Slottsvägen 3, 183 52, Täby"
+              text="Kungshamra 74B, 170 70, Solna"
               icon={home}
             />
           </div>
