@@ -55,7 +55,7 @@ class App extends React.Component {
             />
             <ContactInfoComponent text="(+46)70 782 6560" icon={phone} />
             <ContactInfoComponent
-              text="Kungshamra 74B, 170 70, Solna"
+              text="Kungshamra 55C, 170 70, Solna"
               icon={home}
             />
           </div>
@@ -65,26 +65,40 @@ class App extends React.Component {
             <HeadlineComponent text="ABOUT ME" />
             <SummaryComponent
               headline=""
-              text="I'm Cristian, a 23-year-old student at the Royal Institute of Technology in Stockholm, Sweden.
-              My passions include exploring new things, taking on interesting problems and using computer science to build great products"
+              text="I'm Cristian, a 25-year-old engineer with a M.Sc degree from the Royal Institute of Technology in Stockholm, Sweden.
+              I enjoy exploring new areas within computer science and using my knowledge to solve complex problems."
             />
           </div>
           <div className={'Section Left-section'}>
             <HeadlineComponent text="WORK EXPERIENCE" />
             <WorkComponent
+              name="KRY - Software Engineer"
+              time="2020 - Present"
+              texts={[
+                'Developing high quality software with the main focus of storing and using health data.',
+                'Working with databases, infrastructure, encryption, and writting efficient and maintainable backend applications.',
+                'Mentoring new teammates and being a Scrum Master.',
+                'Working mainly with SQL, RxJava and AWS.',
+              ]}
+            />
+            <WorkComponent
               name="KRY - Software Engineer Intern"
-              time="2019"
-              text="Working full stack with SQL, RxJava and web technologies to build and improve tools used internally at KRY"
+              time="2019 - 2020"
+              texts={[
+                'Worked full stack with SQL, RxJava and web technologies to build and improve tools used internally at KRY',
+              ]}
             />
             <WorkComponent
               name="WeKnowIT - App developer"
               time="2018"
-              text="Developed customised apps with React Native. Responsible for planning, building and delivering the entire product"
+              texts={[
+                'Developed customised apps with React Native. Responsible for planning, building and delivering the entire product',
+              ]}
             />
             <WorkComponent
               name="Topgolf Sweden - Software developer"
               time="Summer 2017"
-              text="Built a Windows application with C# and WPF"
+              texts={['Built a Windows application with C# and WPF']}
             />
           </div>
           <div className={'Section Left-section'}>
@@ -110,15 +124,15 @@ class App extends React.Component {
             <VolunteerComponent
               name="Project leader"
               time="2018"
-              text="Head of the reception of new students at the computer science chapter. Led a team of 60 students to organize 5 weeks of events for 200 people to partake in. Responsibilities included making a budget, recruiting, planning logistics, being the main contact towards KTH and leading everyone towards our common goal"
+              text="Head of the reception of new students at the computer science chapter. Led a team of 60 students to organize 5 weeks of events for 200 people to partake in. Responsibilities included making a budget, recruiting, logistics, being the main contact towards KTH and leading everyone towards our common goal"
             />
           </div>
           <div className={'Section Left-section'}>
             <HeadlineComponent text="SKILLS" />
             <div className="Component-container">
               <p className={'Content Skills'}>
-              Javascript, HTML, CSS, React, React Native, Redux, Node, Java, RxJava,
-              SQL, C#, WPF, Python, Git, Bash
+                Java, RxJava, SQL, AWS, Javascript, HTML, CSS, React, React
+                Native, Redux, NodeJS, C#, WPF, Python, Git, Unix shell.
               </p>
             </div>
           </div>
