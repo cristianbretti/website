@@ -1,21 +1,20 @@
-import * as React from 'react';
-import './App.css';
-import WorkComponent from './WorkComponent';
-import EducationComponent from './EducationComponent';
-import VolunteerComponent from './VolunteerComponent';
-import profile from './assets/profile.jpg';
-import github from './assets/github-box.png';
-import mail from './assets/sharp-email-24px.svg';
-import linkedin from './assets/linkedin-box.png';
-import home from './assets/home.svg';
-import phone from './assets/phone.svg';
-import earth from './assets/earth.svg';
-import HeadlineComponent from './HeadlineComponent';
-import NameComponent from './NameComponent';
-import ContactInfoComponent from './ContactInfoComponent';
-import ButtonComponent from './ButtonComponent';
-import SummaryComponent from './SummaryComponent';
-import ScrollDownComponent from './ScrollDownComponent';
+import * as React from "react";
+import "./App.css";
+import WorkComponent from "./WorkComponent";
+import EducationComponent from "./EducationComponent";
+import profile from "./assets/profile.jpg";
+import github from "./assets/github-box.png";
+import mail from "./assets/sharp-email-24px.svg";
+import linkedin from "./assets/linkedin-box.png";
+import home from "./assets/home.svg";
+import phone from "./assets/phone.svg";
+import earth from "./assets/earth.svg";
+import HeadlineComponent from "./HeadlineComponent";
+import NameComponent from "./NameComponent";
+import ContactInfoComponent from "./ContactInfoComponent";
+import ButtonComponent from "./ButtonComponent";
+import SummaryComponent from "./SummaryComponent";
+import ScrollDownComponent from "./ScrollDownComponent";
 
 class App extends React.Component {
   public render() {
@@ -31,7 +30,7 @@ class App extends React.Component {
               <NameComponent text="OSORIO BRETTI" />
             </div>
 
-            <div className={'Buttons no-print'}>
+            <div className={"Buttons no-print"}>
               <ButtonComponent
                 link="https://github.com/cristianbretti"
                 icon={github}
@@ -55,53 +54,56 @@ class App extends React.Component {
             />
             <ContactInfoComponent text="(+46)70 782 6560" icon={phone} />
             <ContactInfoComponent
-              text="Kungshamra 55C, 170 70, Solna"
+              text="Hammarbyterrassen 34, 120 63, Stockholm"
               icon={home}
             />
           </div>
         </div>
         <div className="App-body">
-          <div className={'Section Left-section'}>
+          <div className={"Section Left-section"}>
             <HeadlineComponent text="ABOUT ME" />
             <SummaryComponent
               headline=""
-              text="I'm Cristian, a 25-year-old engineer with a M.Sc degree from the Royal Institute of Technology in Stockholm, Sweden.
-              I enjoy exploring new areas within computer science and using my knowledge to solve complex problems."
+              text="I'm Cristian, a 26-year-old full stack-engineer with a M.Sc degree in Computer Science. I'm a driven and curious person who loves to learn new things and solve fun and complex problems."
             />
           </div>
-          <div className={'Section Left-section'}>
+          <div className={"Section Left-section"}>
             <HeadlineComponent text="WORK EXPERIENCE" />
             <WorkComponent
-              name="KRY - Software Engineer"
-              time="2020 - Present"
+              name="Parks & Resorts - Software Engineer"
+              time="2022 - 2023"
               texts={[
-                'Developing high quality software with the main focus of storing and using health data.',
-                'Working with databases, infrastructure, encryption, and writting efficient and maintainable backend applications.',
-                'Mentoring new teammates and being a Scrum Master.',
-                'Working mainly with SQL, RxJava and AWS.',
+                "Fullstack developer working with everything from our highly trafficked websites to backend systems and internal tools.",
+                "Planning and organize the work four all our public websites that are visited by millions of people every year. This includes stakeholder management, planning, and prioritization.",
+                "Working mainly with React, Gatsby, Contentful, .NET and Azure.",
+              ]}
+            />
+            <WorkComponent
+              name="KRY - Software Engineer"
+              time="2020 - 2022"
+              texts={[
+                "Developing high quality software with the main focus of storing and using health data.",
+                "Working with databases, infrastructure, encryption, and writting efficient and maintainable backend applications.",
+                "Mentoring new teammates and being a Scrum Master.",
+                "Working mainly with SQL, RxJava and AWS.",
               ]}
             />
             <WorkComponent
               name="KRY - Software Engineer Intern"
               time="2019 - 2020"
               texts={[
-                'Worked full stack with SQL, RxJava and web technologies to build and improve tools used internally at KRY',
+                "Worked full stack with SQL, RxJava and web technologies to build and improve tools used internally at KRY",
               ]}
             />
             <WorkComponent
               name="WeKnowIT - App developer"
               time="2018"
               texts={[
-                'Developed customised apps with React Native. Responsible for planning, building and delivering the entire product',
+                "Developed customised apps with React Native. Responsible for planning, building and delivering the entire product",
               ]}
             />
-            <WorkComponent
-              name="Topgolf Sweden - Software developer"
-              time="Summer 2017"
-              texts={['Built a Windows application with C# and WPF']}
-            />
           </div>
-          <div className={'Section Left-section'}>
+          <div className={"Section Left-section"}>
             <HeadlineComponent text="EDUCATION" />
             <EducationComponent
               name="M.Sc in Computer Science - KTH Royal Institute of Technology"
@@ -114,31 +116,18 @@ class App extends React.Component {
               text="Bachelor of Science in Computer Science and Engineering"
             />
           </div>
-          <div className={'Section Left-section'}>
-            <HeadlineComponent text="VOLUNTEER EXPERIENCE" />
-            <VolunteerComponent
-              name="Head of Sales"
-              time="2019 - 2020"
-              text="Leading a group of 5 peers in a sales group. Responsibilities include supervising and improving our workflow to make sure we meet our goal of bringing in 1M SEK to our student project"
-            />
-            <VolunteerComponent
-              name="Project leader"
-              time="2018"
-              text="Head of the reception of new students at the computer science chapter. Led a team of 60 students to organize 5 weeks of events for 200 people to partake in. Responsibilities included making a budget, recruiting, logistics, being the main contact towards KTH and leading everyone towards our common goal"
-            />
-          </div>
-          <div className={'Section Left-section'}>
+          <div className={"Section Left-section"}>
             <HeadlineComponent text="SKILLS" />
             <div className="Component-container">
-              <p className={'Content Skills'}>
-                Java, RxJava, SQL, AWS, Javascript, HTML, CSS, React, React
-                Native, Redux, NodeJS, C#, WPF, Python, Git, Unix shell.
+              <p className={"Content Skills"}>
+                React, Javascript, Typescript, Java, RxJava, C#, .NET, SQL, AWS,
+                Azure, Docker, Javascript, React Native, NodeJS, WPF, Python.
               </p>
             </div>
           </div>
-          <div className={'Section Resume'}>
+          <div className={"Section Resume"}>
             <a href="resume" download={true}>
-              <button className={'Download-button no-print'}>
+              <button className={"Download-button no-print"}>
                 Download résumé
               </button>
             </a>
