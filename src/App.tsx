@@ -35,10 +35,7 @@ class App extends React.Component {
                 link="https://github.com/cristianbretti"
                 icon={github}
               />
-              <ButtonComponent
-                link="mailto:cristian.osoriobretti@gmail.com"
-                icon={mail}
-              />
+              <ButtonComponent link="mailto:cristian@the-way.se" icon={mail} />
               <ButtonComponent
                 link="https://www.linkedin.com/in/cristian-osorio-bretti-904270106/"
                 icon={linkedin}
@@ -48,10 +45,7 @@ class App extends React.Component {
           </div>
           <div className="Contact-info">
             <ContactInfoComponent text="www.osoriobretti.com" icon={earth} />
-            <ContactInfoComponent
-              text="cristian.osoriobretti@gmail.com"
-              icon={mail}
-            />
+            <ContactInfoComponent text="cristian@the-way.se" icon={mail} />
             <ContactInfoComponent text="(+46)70 782 6560" icon={phone} />
             <ContactInfoComponent
               text="Hammarbyterrassen 34, 120 63, Stockholm"
@@ -70,36 +64,40 @@ class App extends React.Component {
           <div className={"Section Left-section"}>
             <HeadlineComponent text="WORK EXPERIENCE" />
             <WorkComponent
-              name="Parks & Resorts - Software Engineer"
+              name="Parks & Resorts - Senior Software Engineer"
               time="2022 - 2023"
               texts={[
-                "Fullstack developer working with everything from our highly trafficked websites to backend systems and internal tools.",
-                "Planning and organize the work four all our public websites that are visited by millions of people every year. This includes stakeholder management, planning, and prioritization.",
-                "Working mainly with React, Gatsby, Contentful, .NET and Azure.",
+                "Fullstack developer working mainly with our websites but also with backend systems and internal tools.",
+                "Lead developer for all of the public websites with millions of monthly users. This includes stakeholder management, planning, prioritization and development.",
+                "Mentored junior developers.",
+                "Working mainly with React, Typescript, Storybook, Gatsby, Contentful, .NET and Azure.",
               ]}
             />
             <WorkComponent
               name="KRY - Software Engineer"
-              time="2020 - 2022"
+              time="2019 - 2022"
               texts={[
-                "Developing high quality software with the main focus of storing and using health data.",
-                "Working with databases, infrastructure, encryption, and writting efficient and maintainable backend applications.",
-                "Mentoring new teammates and being a Scrum Master.",
-                "Working mainly with SQL, RxJava and AWS.",
-              ]}
-            />
-            <WorkComponent
-              name="KRY - Software Engineer Intern"
-              time="2019 - 2020"
-              texts={[
-                "Worked full stack with SQL, RxJava and web technologies to build and improve tools used internally at KRY",
+                "Developed high quality software with the main focus of storing and using health data.",
+                "Worked with databases, infrastructure, encryption, and writting efficient and maintainable backend applications.",
+                "Mentored new teammates and held the role of Scrum Master.",
+                "Worked mainly with SQL, Java, AWS and React.",
               ]}
             />
             <WorkComponent
               name="WeKnowIT - App developer"
               time="2018"
               texts={[
-                "Developed customised apps with React Native. Responsible for planning, building and delivering the entire product",
+                "Developed customised apps with React Native.",
+                "Responsible for planning, building and delivering the entire product",
+                "Worked with React Native.",
+              ]}
+            />
+            <WorkComponent
+              name="Toptracer - Software Engineer"
+              time="2017"
+              texts={[
+                "Built an Windows application used internally to configure the main product.",
+                "Worked with .NET, C#, and WPF",
               ]}
             />
           </div>
@@ -107,12 +105,10 @@ class App extends React.Component {
             <HeadlineComponent text="EDUCATION" />
             <EducationComponent
               name="M.Sc in Computer Science - KTH Royal Institute of Technology"
-              time="2018 - 2020"
               text="Master of Science in Computer Science and Engineering, specialized in Data Science and Machine Learning"
             />
             <EducationComponent
               name="B.Sc in Computer Science - KTH Royal Institute of Technology"
-              time="2015 - 2018"
               text="Bachelor of Science in Computer Science and Engineering"
             />
           </div>
@@ -121,7 +117,7 @@ class App extends React.Component {
             <div className="Component-container">
               <p className={"Content Skills"}>
                 React, Javascript, Typescript, Java, RxJava, C#, .NET, SQL, AWS,
-                Azure, Docker, Javascript, React Native, NodeJS, WPF, Python.
+                Azure, Docker, Storybook, React Native, NodeJS, WPF, Python.
               </p>
             </div>
           </div>
